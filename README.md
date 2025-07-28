@@ -1,8 +1,11 @@
-# 🛠️ Guia de Instalação - Reconhecimento Facial
+# 🧠 Reconhecimento Facial com Python
+Este repositório contém um projeto de reconhecimento facial construído com Python e Flask. A aplicação permite o envio de uma imagem para o servidor, onde ela é salva e comparada com uma imagem de exemplo previamente cadastrada. Utilizando diferentes tecnologias de reconhecimento facial — como DeepFace, OpenFace e face_recognition — o sistema analisa se há correspondência entre os rostos e retorna os resultados da comparação.
+
+## 🛠️ Guia de Instalação - Reconhecimento Facial
 
 Siga os passos abaixo para configurar o ambiente do projeto corretamente no Windows 11.
 
-## ⚙️ Configuração Básica
+### ⚙️ Configuração Básica
 
 1. **Instale o Python 3.10.0**
    Baixe em: [https://www.python.org/downloads/release/python-3100/](https://www.python.org/downloads/release/python-3100/)
@@ -11,7 +14,7 @@ Siga os passos abaixo para configurar o ambiente do projeto corretamente no Wind
 
 ---
 
-## 🔌 Dependências do Flask
+### 🔌 Dependências do Flask
 
 Instale o Flask e o CORS:
 
@@ -22,7 +25,7 @@ pip install flask-cors
 
 ---
 
-## 🤖 Dependências do DeepFace
+### 🤖 Dependências do DeepFace
 
 Para usar o DeepFace:
 
@@ -33,7 +36,7 @@ pip install tf-keras
 
 ---
 
-## 🧠 Dependências do face\_recognition para Linux
+### 🧠 Dependências do face\_recognition para Linux
 
 Se você estiver usando **Linux (Ubuntu/Debian/etc.)**, siga os passos abaixo para instalar o `face_recognition`:
 
@@ -53,7 +56,7 @@ pip install dlib
 pip install face_recognition
 ```
 
-## 🧠 Dependências do face\_recognition para Windows
+### 🧠 Dependências do face\_recognition para Windows
 
 1. **Instale o [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)**
    Durante a instalação, marque:
@@ -83,7 +86,7 @@ pip install face_recognition
 
 ---
 
-## ✅ Finalizando
+### ✅ Finalizando
 
 Após a instalação de todas as dependências, você pode executar o back-end com:
 
