@@ -97,3 +97,5 @@ python entrada.py
 O front-end pode ser aberto no navegador diretamente com um Live Server do VS Code ou configurado para ser servido pelo próprio Flask, se preferir. 
 
 Se for utilizar o Live Server do VS Code, é importante que não capture alterações nas pastas `back-end/__pycache__` e `back-end/uploads`, porque pode gerar um reload na tela que vai atrapalhar a exibição dos resultados.
+
+Alunos: Rafael Botelho Cabral, Paulo Cesar Farias Júnior e Lucas Amaral.
